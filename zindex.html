@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Z-Index Practice</title>
+  <style>
+    .card {
+      width: 200px;
+      height: 150px;
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      padding: 20px;
+      color: white;
+      font-size: 18px;
+    }
+
+    .card1 {
+      background-color: red;
+      z-index: 10;
+    }
+
+    .card2 {
+      background-color: blue;
+      top: 130px;
+      left: 130px;
+      z-index: 11;
+    }
+
+    .card3 {
+      background-color: green;
+      top: 160px;
+      left: 160px;
+      z-index: 12;
+    }
+    h3::after{
+        content: pdf;
+
+    }
+    body{
+        margin: 0 auto;
+    }
+    .auto{
+        margin-bottom: 400px;
+    }
+  </style>
+</head>
+<body>
+    <section>
+         <h2> position will be absolute otherwise not work z-index - main section</h2>
+  <div class="card card1">Card 1 - Red</div>
+  <div class="card card2">Card 2 - Blue</div>
+  <div class="card card3">Card 3 - Green</div>
+
+    </section>
+   
+
+ 
+    
+</body>
+</html>
