@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:flex;
+            gap:5px;
+            
+            
+        }
+        .box{
+            border: 2px solid red;
+            width:400px;
+            height:200px;
+            background-color: aqua;
+            border-radius: 3px;
+        }
+        .first{
+            width:300px;
+            height:600px;
+        
+        }
+        .main-container{
+            border:2px solid green;
+            
+        }
+        .practice{
+            border:2px solid green;
+            gap:5px;
+
+        }
+        img{
+            width:100%;
+
+        }
+        .practice1{
+            display:flex;
+            border:2px solid green;
+            text-align: center;
+            
+
+        }
+
+        .practice2{
+            display:flex;
+            border:2px solid green;
+            margin-top: 10px;
+            text-align: center;
+           
+
+
+        }
+        .practice3{
+            display:flex;
+            border:2px solid green;
+            margin-top: 10px;
+            text-align: center;
+
+        }
+
+        .practice4{
+            display:flex;
+            border:2px solid green;
+            margin-top: 10px;
+            text-align: center;
+
+        }
+
+        .practice5{
+            display:flex;
+            border:2px solid green;
+            margin-top: 10px;
+            text-align: center;
+
+        }
+
+
+        @media screen and (max-width:576px){
+            .container{
+                display:grid;
+                grid-template-columns: repeat(1, 1rf);
+                
+                
+            }
+            .box{
+                background-color: blue;
+                flex-direction: row-reverse;
+            }
+            .first{
+                order:2;
+
+            }
+            .secent{
+                order:1;
+
+            }
+            .practice1{
+                display:grid;
+                grid-template-columns: repeat(1, 1rf);
+
+            }
+             .practice2{
+                 display:grid;
+                grid-template-columns: repeat(1, 1rf);
+
+
+             }
+              .practice3{
+                 display:grid;
+                grid-template-columns: repeat(1, 1rf);
+
+
+              }
+
+               .practice4{
+                 display:grid;
+                grid-template-columns: repeat(1, 1rf);
+
+
+               }
+
+                .practice5{
+                     display:grid;
+                grid-template-columns: repeat(1, 1rf);
+
+
+                }
+
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box first">Left</div>
+        <div class="box secent">Right</div>
+    </div>
+    <section class="main-container">
+        <div class="practice1">
+
+            <img src="images/natural.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corrupti laudantium, eum cupiditate quia, totam iste magni tempora obcaecati suscipit dolor, repudiandae quis amet non commodi! Aspernatur repudiandae earum repellat.</p>
+
+        </div>
+
+        <div class="practice2">
+
+            <img src="images/natural.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corrupti laudantium, eum cupiditate quia, totam iste magni tempora obcaecati suscipit dolor, repudiandae quis amet non commodi! Aspernatur repudiandae earum repellat.</p>
+
+
+        </div>
+
+        <div class="practice3">
+
+            <img src="images/natural.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corrupti laudantium, eum cupiditate quia, totam iste magni tempora obcaecati suscipit dolor, repudiandae quis amet non commodi! Aspernatur repudiandae earum repellat.</p>
+
+            
+        </div>
+
+
+        <div class="practice4">
+
+            <img src="images/natural.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corrupti laudantium, eum cupiditate quia, totam iste magni tempora obcaecati suscipit dolor, repudiandae quis amet non commodi! Aspernatur repudiandae earum repellat.</p>
+
+            
+        </div>
+
+
+        <div class="practice5">
+
+            <img src="images/natural.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corrupti laudantium, eum cupiditate quia, totam iste magni tempora obcaecati suscipit dolor, repudiandae quis amet non commodi! Aspernatur repudiandae earum repellat.</p>
+
+            
+        </div>
+
+    </section>
+    
+</body>
+</html>
